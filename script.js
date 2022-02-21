@@ -10,7 +10,7 @@ function loopStep(){
     updateDataArray();
     createBars(data);
 
-    setTimeout(loopStep, 500);
+    setTimeout(loopStep, 1000);
 }
 
 // view
